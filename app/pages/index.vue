@@ -1,6 +1,8 @@
 <template>
     <div>
-        <UButton>Hm</UButton>
+        <UPageSection>
+            <p>Hmm</p>
+        </UPageSection>
     </div>
 </template>
 
@@ -11,7 +13,7 @@ useSeoMeta({
 })
 
 definePageMeta({
-    colorMode: 'light'
+    colorMode: 'dark'
 })
 </script>
 

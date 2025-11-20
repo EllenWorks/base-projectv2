@@ -1,5 +1,19 @@
 @import "tailwindcss";
 @import "@nuxt/ui";
+@import './variables';
+@import './icon-font';
+@import './typography.css';
+@import './common';
+@import './base';
+@import './button';
+@import './badge';
+@import './header';
+@import './navigation-menu';
+@import './vendor/vanilla-infinite-marquee.min.css';
+@import './vendor/swiper.min.css';
+@import './vendor/leaflet.min.css';
+@import './custom-swiper';
+@import './number-animation';
 
 /* LIGHT MODE */
 
@@ -27,12 +41,4 @@
   --breakpoint-xxs: 21.25rem; /* COMMENT: 340px */
   --breakpoint-xs: 23.125rem; /* COMMENT: 363px */
   --breakpoint-xxl: 82.5rem; /* COMMENT: 1320px */
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  font-family: "Work Sans", sans-serif;
 }
