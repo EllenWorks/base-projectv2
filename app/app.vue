@@ -7,6 +7,23 @@
 </template>
 
 <script setup lang="ts">
+useHead({
+  title: 'Some title',
+  meta: [
+    { name: 'description', content: 'Some description' },
+      { name: 'keywords', content: 'Some keywords' },
+      { name: 'author', content: 'Some author' },
+      { name: 'og:title', content: 'Some title' },
+      { name: 'og:description', content: 'Some description' },
+      { name: 'og:image', content: 'Some image' },
+      { name: 'og:url', content: 'Some url' },
+      { name: 'twitter:title', content: 'Some title' },
+      { name: 'twitter:description', content: 'Some description' },
+      { name: 'twitter:image', content: 'Some image url' },
+      { name: 'twitter:card', content: 'summary_large_image' },
+  ]
+})
+
 import '../animation/accordion';
 // import '../animation/glossary';
 // import '../animation/gradient-path';
